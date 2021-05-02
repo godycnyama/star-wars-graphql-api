@@ -2,7 +2,7 @@
 
 ## Description
 
-This Star Wars GraphQL API wraps the Star Wars RESTful api at https://swapi.dev/api/ .This graphql api provides a way to retrieve detailed information about characters of the Star Wars Universe. It allows users to retrieve a list all Star Wars characters and details of each individual character. A user can search for a particular character using the character's name.It is based on nestjs, a typescript based Node.js server. The graphql engine uses the apollo-server-express module. The code is written in typescript.
+This Star Wars GraphQL API wraps the Star Wars RESTful api at https://swapi.dev/api/ .This graphql api provides a way to retrieve detailed information about characters of the Star Wars Universe. It allows users to retrieve a list all Star Wars characters and details of each individual character. A user can search for a particular character using the character's name.It is based on Nestjs, a typescript based Nodejs server. The graphql engine uses the Apollo-Server-Express module. The code is written in typescript.
 
 ## Setup/Installation
 
