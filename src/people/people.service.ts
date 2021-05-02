@@ -8,10 +8,8 @@ export class PeopleService {
 
   //returns people given page number
   async getPeople(page: number): Promise<Results> {
-    console.log("Get people called");
     try {
       const response =  await this.httpService.get(`/people/?page=${page}`).toPromise();
-      console.log(response.data);
       return response.data;
     }
     catch (error){
@@ -22,10 +20,8 @@ export class PeopleService {
 
    //returns a person given person name
   async getPerson(name: string): Promise<Results> {
-    console.log("Get person called");
     try {
       const response = await this.httpService.get(`/people/?search=${name}`).toPromise();
-      console.log(response.data);
       return response.data;
     }
     catch(error){
